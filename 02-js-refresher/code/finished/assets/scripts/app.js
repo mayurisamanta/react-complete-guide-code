@@ -1,11 +1,12 @@
 // import { apiKey } from "./util.js";
+import defaultkey from "./util.js"; // use any name as we used default in util.js
+import { apiKey, abc as content } from "./util.js";
+import * as util from "./util.js";
 
-// import apiKey from "./util.js";
-// import { apiKey, abc as content } from "./util.js";
-// import * as util from "./util.js";
-
-// console.log(util.apiKey);
-// console.log(content);
+console.log(apiKey);
+console.log(content);
+console.log(util.default);
+console.log(defaultkey);
 
 // const userMessage = "Hello World!!!";
 
@@ -150,7 +151,7 @@
 
 // const message = “Hello”;
 
-const hobbies = ["Sports", "Cooking"];
+// const hobbies = ["Sports", "Cooking"];
 // hobbies = [];
-hobbies.push("Working");
-console.log(hobbies);
+// hobbies.push("Working");
+// console.log(hobbies);
