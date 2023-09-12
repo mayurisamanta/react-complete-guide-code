@@ -1,17 +1,17 @@
 // import { apiKey } from "./util.js";
-import defaultkey from "./util.js"; // use any name as we used default in util.js
-import { apiKey, abc as content } from "./util.js";
-import * as util from "./util.js";
+// import defaultkey from "./util.js"; // use any name as we used default in util.js
+// import { apiKey, abc as content } from "./util.js";
+// import * as util from "./util.js";
 
-console.log(apiKey);
-console.log(content);
-console.log(util.default);
-console.log(defaultkey);
+// console.log(apiKey);
+// console.log(content);
+// console.log(util.default);
+// console.log(defaultkey);
 
-// const userMessage = "Hello World!!!";
+const userMessage = "Hello World!!!"; // variable cannot start with numbers and special characters (exception - $ _)
+// userMessage = "Mayuri"; // will give error because const is "read only"
 
-// console.log(userMessage);
-// console.log(userMessage);
+console.log(userMessage);
 
 // function createGreeting(userName, message = "Hello!") {
 // console.log(userName);
