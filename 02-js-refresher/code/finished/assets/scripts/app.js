@@ -13,22 +13,22 @@
 
 // console.log(userMessage);
 
-function createGreeting(userName, message = "Hello!") {
-    console.log(userName);
-    console.log(message);
-    return "Hi, I am " + userName + ". " + message;
-}
+// function createGreeting(userName, message = "Hello!") {
+//     console.log(userName);
+//     console.log(message);
+//     return "Hi, I am " + userName + ". " + message;
+// }
 
-let greeting1 = createGreeting("Max");
-console.log(greeting1);
+// let greeting1 = createGreeting("Max");
+// console.log(greeting1);
 
-const greeting2 = createGreeting("Manuel", "Hello, what's up?");
-console.log(greeting2);
+// const greeting2 = createGreeting("Manuel", "Hello, what's up?");
+// console.log(greeting2);
 
-// export default (userName, message) => {
-//  console.log("Hello");
-//   return userName + message;
-// };
+export default (userName, message) => {
+ console.log("Hello");
+  return userName + message;
+};
 
 // const user = {
 //   name: "Max",
