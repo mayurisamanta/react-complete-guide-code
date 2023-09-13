@@ -105,48 +105,48 @@
 // };
 // console.log(extendedUser);
 
-const password = prompt("Your password"); // It will allow user to add password 
+// const password = prompt("Your password"); // It will allow user to add password 
 
-if (password === "Hello") {
-  console.log("Hello works");
-} else if (password === "hello") {
-  console.log("hello works");
-} else {
-  console.log("Access not granted.");
-}
-
-const hobbies = ["Sports", "Cooking"];
-
-for (const hobby of hobbies) {
-  console.log(hobby);
-}
-
-const list = document.querySelector("ul");
-list.remove();
-
-// function handleTimeout() {
-//   console.log("Timed out!");
+// if (password === "Hello") {
+//   console.log("Hello works");
+// } else if (password === "hello") {
+//   console.log("hello works");
+// } else {
+//   console.log("Access not granted.");
 // }
 
-// const handleTimeout2 = () => {
-//   console.log("Timed out ... again!");
-// };
+// const hobbies = ["Sports", "Cooking"];
 
-// setTimeout(handleTimeout, 2000);
-// setTimeout(handleTimeout2, 3000);
-// setTimeout(() => {
-//   console.log("More timing out...");
-// }, 4000);
-
-// function init() {
-//   function greet() {
-//     console.log(“Hi!“);
-//   }
-
-//   greet();
+// for (const hobby of hobbies) {
+//   console.log(hobby);
 // }
 
-// init();
+// const list = document.querySelector("ul");
+// list.remove();
+
+function handleTimeout() {
+  console.log("Timed out!");
+}
+
+const handleTimeout2 = () => {
+  console.log("Timed out ... again!");
+};
+
+setTimeout(handleTimeout, 2000);
+setTimeout(handleTimeout2, 3000);
+setTimeout(() => {
+  console.log("More timing out...");
+}, 4000);
+
+function init() {
+  function greet() {
+    console.log("Hi!");
+  }
+
+  greet();
+}
+
+init();
 
 // const message = “Hello”;
 
