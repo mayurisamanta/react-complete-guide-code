@@ -57,20 +57,21 @@
 // console.log(user1);
 // user1.greet();
 
-const hobbies = ["Sports", "Cooking", "Reading"];
-console.log(hobbies[0]);
+// const hobbies = ["Sports", "Cooking", "Reading"];
+// console.log(hobbies[0]);
 
-hobbies.push("Working");
-console.log(hobbies);
+// hobbies.push("Working");
+// console.log(hobbies);
 
-const index = hobbies.findIndex((item) => item === "Sports");
+// const index = hobbies.findIndex((item) => item === "Sports");
 
-console.log(index);
+// console.log(index);
 
-const editedHobbies = hobbies.map((item) => ({ text: item }));
-console.log(editedHobbies);
+// const editedHobbies = hobbies.map((item) => ({ text: item }));
+// console.log(editedHobbies);
 
-// const [firstName, lastName] = ["Max", "Schwarzmüller"];
+const userNameData = ["Max", "Schwarzmüller"];
+const [firstName, lastName] = ["Max", "Schwarzmüller"]; //destructuring
 
 // const firstName = userNameData[0];
 // const lastName = userNameData[1];
@@ -78,33 +79,31 @@ console.log(editedHobbies);
 // console.log(firstName);
 // console.log(lastName);
 
-// const { name: userName, age } = {
-//   name: "Max",
-//   age: 34
-// };
+const { name: userName, age } = {
+  name: "Max",
+  age: 34
+};
 
-// console.log(userName);
-// console.log(age);
+console.log(userName);
+console.log(age);
 
-// const name = user.name;
-// const age = user.age;
 
-// const hobbies = ["Sports", "Cooking"];
-// const user = {
-//   name: "Max",
-//   age: 34
-// };
+const hobbies = ["Sports", "Cooking"];
+const user = {
+  name: "Max",
+  age: 34
+};
 
-// const newHobbies = ["Reading"];
+const newHobbies = ["Reading"];
 
-// const mergedHobbies = [...hobbies, ...newHobbies];
-// console.log(mergedHobbies);
+const mergedHobbies = [...hobbies, ...newHobbies];
+console.log(mergedHobbies);
 
-// const extendedUser = {
-//   isAdmin: true,
-//   ...user
-// };
-// console.log(extendedUser);
+const extendedUser = {
+  isAdmin: true,
+  ...user
+};
+console.log(extendedUser);
 
 // const password = prompt("Your password");
 
