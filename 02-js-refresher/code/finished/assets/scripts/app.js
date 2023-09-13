@@ -25,37 +25,37 @@
 // const greeting2 = createGreeting("Manuel", "Hello, what's up?");
 // console.log(greeting2);
 
-export default (userName, message) => {
- console.log("Hello");
-  return userName + message;
-};
-
-// const user = {
-//   name: "Max",
-//   age: 34,
-//   greet() {
-//     console.log("Hello!");
-//     console.log(this.age);
-//   }
+// export default (userName, message) => {
+//  console.log("Hello");
+//   return userName + message;
 // };
 
-// console.log(user.name);
-// user.greet();
+const user = {
+  name: "Max",
+  age: 34,
+  greet() {
+    console.log("Hello!");
+    console.log(this.age);
+  }
+};
 
-// class User {
-//   constructor(name, age) {
-//     this.name = name;
-//     this.age = age;
-//   }
+console.log(user.name);
+user.greet();
 
-//   greet() {
-//     console.log("Hi!");
-//   }
-// }
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
 
-// const user1 = new User("Manuel", 35);
-// console.log(user1);
-// user1.greet();
+  greet() {
+    console.log("Hi!");
+  }
+}
+
+const user1 = new User("Manuel", 35);
+console.log(user1);
+user1.greet();
 
 // const hobbies = ["Sports", "Cooking", "Reading"];
 // console.log(hobbies[0]);
