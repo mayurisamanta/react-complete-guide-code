@@ -70,8 +70,8 @@
 // const editedHobbies = hobbies.map((item) => ({ text: item }));
 // console.log(editedHobbies);
 
-const userNameData = ["Max", "Schwarzmüller"];
-const [firstName, lastName] = ["Max", "Schwarzmüller"]; //destructuring
+// const userNameData = ["Max", "Schwarzmüller"];
+// const [firstName, lastName] = ["Max", "Schwarzmüller"]; //destructuring
 
 // const firstName = userNameData[0];
 // const lastName = userNameData[1];
@@ -79,50 +79,50 @@ const [firstName, lastName] = ["Max", "Schwarzmüller"]; //destructuring
 // console.log(firstName);
 // console.log(lastName);
 
-const { name: userName, age } = {
-  name: "Max",
-  age: 34
-};
+// const { name: userName, age } = {
+//   name: "Max",
+//   age: 34
+// };
 
-console.log(userName);
-console.log(age);
+// console.log(userName);
+// console.log(age);
 
-
-const hobbies = ["Sports", "Cooking"];
-const user = {
-  name: "Max",
-  age: 34
-};
-
-const newHobbies = ["Reading"];
-
-const mergedHobbies = [...hobbies, ...newHobbies];
-console.log(mergedHobbies);
-
-const extendedUser = {
-  isAdmin: true,
-  ...user
-};
-console.log(extendedUser);
-
-// const password = prompt("Your password");
-
-// if (password === "Hello") {
-//   console.log("Hello works");
-// } else if (password === "hello") {
-//   console.log("hello works");
-// } else {
-//   console.log("Access not granted.");
-// }
 
 // const hobbies = ["Sports", "Cooking"];
+// const user = {
+//   name: "Max",
+//   age: 34
+// };
 
-// for (const hobby of hobbies) {
-//   console.log(hobby);
-// }
+// const newHobbies = ["Reading"];
 
-// const list = document.querySelector("ul");
-// list.remove();
+// const mergedHobbies = [...hobbies, ...newHobbies];
+// console.log(mergedHobbies);
+
+// const extendedUser = {
+//   isAdmin: true,
+//   ...user
+// };
+// console.log(extendedUser);
+
+const password = prompt("Your password"); // It will allow user to add password 
+
+if (password === "Hello") {
+  console.log("Hello works");
+} else if (password === "hello") {
+  console.log("hello works");
+} else {
+  console.log("Access not granted.");
+}
+
+const hobbies = ["Sports", "Cooking"];
+
+for (const hobby of hobbies) {
+  console.log(hobby);
+}
+
+const list = document.querySelector("ul");
+list.remove();
 
 // function handleTimeout() {
 //   console.log("Timed out!");
